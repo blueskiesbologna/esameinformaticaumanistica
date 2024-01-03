@@ -20,7 +20,7 @@
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
-    text-align: left;
+    text-align: left;}
 
  h3 {
       font-size: larger;
@@ -47,11 +47,15 @@
       flex-direction: column;
       font-size: large;
     }
-    .column > h5 {
-      margin-top: 100px;
+    .column > h2 {
+      font-size: x-large;
     }
-  }
-}
+    .column > p {
+      font-size: x-large;
+
+    }
+    }
+
 
 @media screen and (max-width: 750px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
