@@ -1,5 +1,3 @@
-
-
 button{
     background-color: #6897BB;
     border: none;
@@ -45,7 +43,7 @@ button:hover {
 }
 
 .active {
-  text-decoration: underline;
+  text-decoration: none;
   color:black;
 }
 
