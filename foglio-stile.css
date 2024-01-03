@@ -175,6 +175,11 @@ p {
   width: 80%;
   margin: auto;
 }
+
+cite {
+  font-family: 'Josefin Sans', sans-serif;
+
+}
 hr{
   margin: auto;
   width: 50%;
@@ -205,6 +210,11 @@ section {
   }
   .column > p {
     font-family: 'Josefin Sans', sans-serif 
+  }
+
+  .column-images{
+    margin-top: 30px;
+    height: 40%;
   }
 
   .column button {
