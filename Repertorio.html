@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta>
+    <meta charset="utf-8"><meta author="Martina Castellari"> <html lang="it"></meta>
+        <title>Blue Skies - Big Band</title>
+        <link rel="icon" type="image/x-icon" href="Blue Skies Logo.png">
+        <link rel="stylesheet" href="foglio-stile.css">
+        <link rel="stylesheet" href="Blue Skies Media Queries.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=josefin+sans-regular">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=yesevaone-regular"> 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+          </style>
+    </head>
+
+    <body>
+      <div class="logo">
+        <h2><a href="index.html"> <img src="Blue skies con testo.png" width="300"></a></h2></div>
+
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active">Home</a>
+            <a href="Chi Siamo.html">Chi siamo</a>
+            <a href="#contact">Attività</a>
+            <a href="Repertorio.html">Repertorio</a>
+            <div class="dropdown">
+              <button class="dropbtn">Introduzione al jazz
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Storia del Jazz</a>
+                <a href="#">Lessico Jazz</a>
+              </div>
+            </div> 
+            <a href="#contact">Eventi</a>
+            <a href="#about">Contatti</a>
+            <a href="Documentazione.html">Documentazione</a>
+            </button>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+
+          <div class="doc"></div>
+
+<div class="container reveal">
+<section>
+        <h1> Repertorio</h1>
+        <p>Per permettere agli studenti di conoscere al meglio il jazz in tutte le sue sfumature, il repertorio della Blue Skies Big Band spazia tra tutte le epoche e gli stili della musica jazz, dallo swing al bebop.</p>
+<br>
+
+
+<div class="row">
+  <div class="column left">
+    <h2><i>J. Kosma, J. Prèvert</i>- Autumn Leaves/Les Feuilles mortes</h2>
+    <audio src="" controls></audio>
+    <p>Standard jazz molto popolare e dallo schema metrico e armonico di facile comprensione.</p>
+    <br>
+    <div class="download btn"><button><i class="fa fa-download"></i> Spartito per strumenti in Do</button> <button><i class="fa fa-download"></i> Spartito per strumenti in Si b</button></div>
+    <br>
+    <h2><i>J. Coltrane</i> - Giant Steps</h2>
+    <audio src="" controls></audio>
+    <p>Composto nel 1960, è un brano semplice e adatto ai principianti che vogliono cimentarsi con lo studio dell'armonia applicata alla pratica improvvisativa.
+      <br>
+      <div class="download btn"><button><i class="fa fa-download"></i> Spartito per strumenti in Do</button> <button><i class="fa fa-download"></i> Spartito per strumenti in Si b</button></div>
+    <br>
+    <h2><i>K. Dorham</i> - Blue Bossa</h2>
+    <audio src="" controls></audio>
+    <p>Brano molto amato dai jazzisti che mescola le tonalità bebop alle sonorità della Bossa Nova. È per questo molto adatto, insieme al giro armonico semplice, come brano introduttivo alla Bossa Nova.</p>
+    <br>
+    <div class="download btn"><button><i class="fa fa-download"></i> Spartito per strumenti in Do</button> <button><i class="fa fa-download"></i> Spartito per strumenti in Si b</button></div>
+    <br>
+    <h2><i>B. Howard</i> - Fly me to the Moon</h2>
+    <audio src="" controls></audio>
+    <p>Composta nel 1954, F. Sinatra rese celebre questa canzone dieci anni più tardi, associandola al lancio dell'Apollo e al conseguente primo passo sulla luna. Standard swing molto raffinato.</quote></p>
+    <br>
+    <div class="download btn"><button><i class="fa fa-download"></i> Spartito per strumenti in Do</button> <button><i class="fa fa-download"></i> Spartito per strumenti in Si b</button></div>
+    <br>
+  </div>
+  <div class="column right" >
+  <img src="Autumn leaves.png" width="300px" alt ="Un disegno di foglie secche che stando cadendo">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <img src="Fly me to the Moon.png" width="300px" alt= "Un disegno di un razzo che ha decollato dalla Terra e si sta dirigendo verso la luna"></aside>
+  </div>
+</div>
+
+  
+  <footer>
+          
+    <div class="footer-info">
+      <h4>Seguici sui social</h4>
+      <a href="https://www.instagram.com/blueskiesbologna/" class="fa fa-instagram"></a>
+      <h4>Numero Telefonico: +39 333 333 333;</h4>
+      <h4> Piazza Maggiore, 1, Bologna - Casa di Riposo "Henghel Gualdi"</h4>
+      <h4>Partita IVA: IT 000 000 000 00</h4>
+      <h4> &#169; 2023-2024: Martina C.</h4>
+      </div>
+            </footer>
+    </body>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+
+        function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+function navBarFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '<Some Property ID A>');
+gtag('config', '<Some Property ID B>');
+gtag('event', 'sign_up', { 'method': 'email' });
+gtag('event', 'view_video', { 'send_to': '<Some Property ID B>' });
+
+        </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<Some Property ID A>"></script>
+
+        </script>
+</html>
