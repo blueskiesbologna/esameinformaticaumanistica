@@ -38,10 +38,6 @@
  p {
       font-size: larger;
     }
-  #macchina {
-    display:block;
-    margin:0 auto;
-  }
   
   @media (max-width: 900px){
    .topnav {
