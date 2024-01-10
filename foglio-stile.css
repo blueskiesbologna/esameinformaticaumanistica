@@ -207,6 +207,7 @@ background-color: whitesmoke;
   width: 50%;
   padding: 10px;
   text-align: center;
+  font-weight: 300;
   background-color: whitesmoke;
 }
 .column > p {
