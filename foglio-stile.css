@@ -222,6 +222,8 @@ background-color: whitesmoke;
   position: center;
   background-color: #ec7575;
   border-radius: 8px;
+  text-decoration: none;
+  color: white;
 }
 .column button:hover {
   background-color: #d65b5f;
