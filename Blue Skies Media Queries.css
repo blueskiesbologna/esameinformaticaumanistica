@@ -1,14 +1,16 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
   .logo {
     width: 100%;
   height: auto;
   }
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
+    z-index: 999;
   }
   .topnav a.icon {
     float: right;
     display: block;
+    z-index: 999;
   }
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
@@ -67,10 +69,7 @@
     .column > p {
       font-size: x-large;}
 
-      #macchina {
-        width: 100%;
-        margin-right: 30%;
-        margin-left: 70%;
+    
     }
     }
 
