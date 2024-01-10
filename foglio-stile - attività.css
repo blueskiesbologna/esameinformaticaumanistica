@@ -203,13 +203,12 @@ section {
     padding: 10px;
     column-gap: 1em;
     text-align: center;
-      font-weight: 300;
+    font-weight: 300;
     background-color: whitesmoke;
   }
   .column > p {
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
-    font-weight: 300;
   }
 
   .column-images{
