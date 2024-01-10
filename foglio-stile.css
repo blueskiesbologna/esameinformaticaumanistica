@@ -243,9 +243,10 @@ section {
   }
 
   #macchina {
-    margin-right: auto;
-    margin-left: 30%;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
 
   .map {
