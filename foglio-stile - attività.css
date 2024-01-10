@@ -156,7 +156,7 @@ h3{
 h4 {
   text-align: center;
   text-decoration: none;
-  font-family: "yesevaone-regular", serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 p {
@@ -213,7 +213,7 @@ section {
 
   .column-images{
     margin-top: 30px;
-    height: 40%;
+    height: 30%;
   }
 
   .column button {
