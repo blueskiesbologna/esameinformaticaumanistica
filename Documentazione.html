@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=josefin+sans-regular">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=yesevaone-regular"> 
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap');      
           </style>
     </head>
 
@@ -19,25 +19,25 @@
       <div class="logo">
         <h2><a href="index.html"> <img src="Blue skies con testo.png" width="300" alt="il logo della Blue Skies Big Band: un sole a forma di disco nascosto da una nuvola"></a></h2></div>
 
-            <div class="topnav" id="myTopnav">   
-            <a href="#home" class="active">Home</a>
-            <a href="Chi Siamo.html">Chi siamo</a>
-            <a href="Attività.html">Attività</a>
-            <a href="Repertorio.html">Repertorio</a>
-            <div class="dropdown">
-              <button class="dropbtn">Introduzione al jazz
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="#">Storia del Jazz</a>
-                <a href="#">Lessico Jazz</a>
-              </div>
-            </div> 
-            <a href="#contact">Eventi</a>
-            <a href="#about">Contatti</a>
-            <a href="Documentazione.html">Documentazione</a>
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-          </div>
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active">Home</a>
+          <a href="Chi Siamo.html">Chi Siamo</a>
+          <a href="Attività.html">Attività</a>
+          <a href="Repertorio.html">Repertorio</a>
+          <div class="dropdown">
+            <button class="dropbtn">Introduzione al Jazz
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Storia del jazz</a>
+              <a href="#">Lessico jazz</a>
+            </div>
+          </div> 
+          <a href="#about">Eventi</a>
+          <a href="#about">Contatti</a>
+          <a href="Documentazione.html">Documentazione</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
 
           <div class="doc"></div>
 
@@ -197,18 +197,20 @@
                 <h4> &#169; 2023-2024: Martina C.</h4>
                 <br>
       </div>
-            </footer>
+    </footer>
     </body>
 
     <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
+
+
+     function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}  
 
         function reveal() {
   var reveals = document.querySelectorAll(".reveal");
@@ -235,11 +237,6 @@ function navBarFunction() {
     } else {
         x.className = "topnav";
     }
-}
-
-function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
 }
 
 window.dataLayer = window.dataLayer || [];
