@@ -124,6 +124,7 @@ body, html {
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("blueskieshome.png");
     height: 50%;
+    display: flex;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
